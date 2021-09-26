@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		084CA4D126FFE5CF007BA83C /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 084CA4D026FFE5CF007BA83C /* Contact.m */; };
 		0856095E26FFCF820099D9F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0856095D26FFCF820099D9F0 /* AppDelegate.m */; };
 		0856096126FFCF820099D9F0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0856096026FFCF820099D9F0 /* SceneDelegate.m */; };
 		0856096426FFCF820099D9F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0856096326FFCF820099D9F0 /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		084CA4CF26FFE5CF007BA83C /* Contact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		084CA4D026FFE5CF007BA83C /* Contact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
 		0856095926FFCF820099D9F0 /* Agenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0856095C26FFCF820099D9F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0856095D26FFCF820099D9F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				0856096026FFCF820099D9F0 /* SceneDelegate.m */,
 				0856096226FFCF820099D9F0 /* ViewController.h */,
 				0856096326FFCF820099D9F0 /* ViewController.m */,
+				084CA4CF26FFE5CF007BA83C /* Contact.h */,
+				084CA4D026FFE5CF007BA83C /* Contact.m */,
 				0856096526FFCF820099D9F0 /* Main.storyboard */,
 				0856096826FFCF860099D9F0 /* Assets.xcassets */,
 				0856096A26FFCF860099D9F0 /* LaunchScreen.storyboard */,
@@ -268,6 +273,7 @@
 			files = (
 				0856096426FFCF820099D9F0 /* ViewController.m in Sources */,
 				0856095E26FFCF820099D9F0 /* AppDelegate.m in Sources */,
+				084CA4D126FFE5CF007BA83C /* Contact.m in Sources */,
 				0856096F26FFCF860099D9F0 /* main.m in Sources */,
 				0856096126FFCF820099D9F0 /* SceneDelegate.m in Sources */,
 			);

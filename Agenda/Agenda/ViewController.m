@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import "Contact.h"
 
 @interface ViewController ()
 
@@ -13,9 +14,13 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+- (IBAction) addName{
+    Contact *newContact = [Contact new];
+    [newContact setName:self.name.text];
+    [newContact setPhone:self.phone.text];
+    [newContact setMail:self.email.text];
+    
+    [newContact printOnLog];
 }
 
 
